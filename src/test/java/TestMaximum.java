@@ -43,6 +43,11 @@ public class TestMaximum <T extends Comparable<T>> {
         Float xFloat =3.4f , yFloat=5.8f , zFloat=7.6f;
         String xStr ="Apple" ,yStr="Peach",zStr="Banana";
 
+        TestMaximum.maximumTest(xStr,yStr,zStr);
+        new TestMaximum(xInt,yInt,zInt).maximum();
+        new TestMaximum(xFloat,yFloat,zFloat).maximum();
+        new TestMaximum(xStr,yStr,zStr).maximum();
+
 
     }
 }
